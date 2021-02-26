@@ -73,7 +73,7 @@ export default class DataArea extends Component {
           return values.indexOf(filter.toLowerCase()) !== -1;  
         });
         
-        this.setState({ filteredUsers: filteredList });
+        this.setState({ filteredUser: filteredList });
     
     }
 
