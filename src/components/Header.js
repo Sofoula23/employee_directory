@@ -5,8 +5,7 @@ export default class Header extends Component {
         return (
             <div>
                 <h1>Employee Directory</h1>
-                <p>Click on Name to filter employees by name (ascending or descending) <br/>
-                    or use the search box to narrow your results</p>
+                <p>Click on Name to filter employees or type in the search box to narrow your results</p>
                   
             </div>    
         )
